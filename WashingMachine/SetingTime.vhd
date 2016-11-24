@@ -12,7 +12,7 @@ entity SetingTime is
 	);
 end SetingTime ;
 
-architecture beha of SetingTime is 
+architecture behav of SetingTime is 
 begin
 process(load)
 begin
@@ -20,4 +20,4 @@ begin
 		time_set <= time_input ;
 	end if ;
 	end process ;
-end beha;
+end behav;
